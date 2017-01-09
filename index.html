@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Title Page</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Title Page</title>
+      <!-- jQuery -->
+      <script src="//code.jquery.com/jquery.js"></script>
+      <!-- Bootstrap JavaScript -->
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+      <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+      <script src="lib/jquery.js"></script>
+      <link href="css/alertCSS.css" rel="stylesheet">
+      <script src="lib/alertFile.min.js"></script>
+   </head>
+   <body>
+      <!--this div will show your message-->
+      <div id="GesProAlert_Conteiner"></div>
+ 
+      <div class="row">
+         <div class="col-md-2">
+            <div class="form-group">
+               <label asp-for="Nome" class="control-label col-lg-2"></label>
+               <div>
+                  <input class="form-control" type="button" style="background-color: #fff" value="Alert" onclick="ns_Alert.Alert('message here')">
+               </div>
+            </div>
+         </div>
+         <div class="col-md-2">
+            <div class="form-group">
+               <label asp-for="Nome" class="control-label col-lg-2"></label>
+               <div>
+                  <input class="form-control" type="button" style="background-color: #37BC9B;"value="Alert_Sucess" onclick="ns_Alert.Alert_Sucess	('message here')">
+               </div>
+            </div>
+         </div>
+         <div class="col-md-2">
+            <div class="form-group">
+               <label asp-for="Nome" class="control-label col-lg-2"></label>
+               <div>
+                  <input class="form-control" type="button" style="background-color: #DA4453;" value="Alert_Error" onclick="ns_Alert.Alert_Error('message here')">
+               </div>
+            </div>
+         </div>
+         <div class="col-md-2">
+            <div class="form-group">
+               <label asp-for="Nome" class="control-label col-lg-2"></label>
+               <div>
+                  <input class="form-control" type="button" style="background-color: #F6BB42" value="Alert_Attention" onclick="ns_Alert.Alert_Attention('message here')">
+               </div>
+            </div>
+         </div>
+         <div class="col-md-2">
+            <div class="form-group">
+               <label asp-for="Nome" class="control-label col-lg-2"></label>
+               <div>
+                  <input class="form-control" type="button" style="background-color: #4A89DC" value="Alert_Neutro" onclick="ns_Alert.Alert_Neutro('message here')">
+               </div>
+            </div>
+         </div>
+          <div class="col-md-2">
+            <div class="form-group">
+               <label asp-for="Nome" class="control-label col-lg-2"></label>
+               <div>
+                  <input  class="form-control"  type="submit" style="background-color:gray" value="Source/GitHub" onclick="git.click()">
+                 <a id="git" target="blank" href="https://www.geit.com"></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html> 
